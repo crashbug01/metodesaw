@@ -34,7 +34,7 @@ Your inputed decision matrix will appear in the decision matrix table where you 
 
 <p align="center"><img src="readme/tabel_mk.png" alt="Tabel Matriks Keputusan"></p>
 
-# Output
+## Output
 
 - The normalization of the matrix will appear in tabel normalisasi
 
