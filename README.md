@@ -1,66 +1,45 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><img src="readme/SAW_DSS_For_Rented_House.png" width="400" alt="SAW DSS For Rented House"></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## About This Project
 
-## About Laravel
+A simple rental housing decision support system that is customizable to meet user needs.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## How to use
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Input the criteria in form kriteria
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p align="center"><img src="readme/form_kriteria.png" alt="Form Kriteria"></p>
 
-## Learning Laravel
+Your criteria will appear in the criteria table where you can check them there.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<p align="center"><img src="readme/tabel_kriteria.png" alt="Tabel Kriteria"></p>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- Input the alternative in form alternatif
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<p align="center"><img src="readme/form_alternatif.png" alt="Form Alternatif"></p>
 
-## Laravel Sponsors
+Your alternatuf will appear in tabel where you can check them there.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+<p align="center"><img src="readme/tabel_alternatif.png" alt="Tabel Alternatif"></p>
 
-### Premium Partners
+- Input the decision matrix in form matriks keputusan
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+<p align="center"><img src="readme/form_mk.png" alt="Form Matriks Keputusan"></p>
 
-## Contributing
+Fill in ID Alternatif with the ID of the alternative you wish to score, ID Kriteria with the ID of the criterion used as the basis for the evaluation, and nilai with the specific score assigned to that alternative.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+For example, if you want to input a value for Kos A based on its Lokasi, you would enter 1 (the ID for Kos A) into the ID Alternatif column, 1 (the ID for Lokasi) into the ID Kriteria column, and your desired score into the nilai column.
 
-## Code of Conduct
+Your inputed decision matrix will appear in the decision matrix table where you can check them there.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<p align="center"><img src="readme/tabel_mk.png" alt="Tabel Matriks Keputusan"></p>
 
-## Security Vulnerabilities
+# Output
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- The normalization of the matrix will appear in tabel normalisasi
 
-## License
+<p align="center"><img src="readme/tabel_normalisasi.png" alt="Tabel Normalisasi"></p>
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- The ranking for each alternative will appear in tabel rangking
+
+<p align="center"><img src="readme/tabel_rangking.png" alt="Tabel Rangking"></p>
