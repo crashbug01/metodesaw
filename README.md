@@ -2,6 +2,7 @@
 
 ## About This Project
 
+![GitHub last commit](https://img.shields.io/github/last-commit/crashbug01/metodesaw)
 A simple rental housing decision support system that is customizable to meet user needs.
 
 ## How to use
