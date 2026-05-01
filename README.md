@@ -19,7 +19,7 @@ Your criteria will appear in the criteria table where you can check them there.
 
 <p align="center"><img src="readme/form_alternatif.png" alt="Form Alternatif"></p>
 
-Your alternatuf will appear in tabel where you can check them there.
+Your alternative will appear in tabel alternatif where you can check them there.
 
 <p align="center"><img src="readme/tabel_alternatif.png" alt="Tabel Alternatif"></p>
 
@@ -31,16 +31,16 @@ Fill in ID Alternatif with the ID of the alternative you wish to score, ID Krite
 
 For example, if you want to input a value for Kos A based on its Lokasi, you would enter 1 (the ID for Kos A) into the ID Alternatif column, 1 (the ID for Lokasi) into the ID Kriteria column, and your desired score into the nilai column.
 
-Your inputed decision matrix will appear in the decision matrix table where you can check them there.
+Your inputed decision matrix will appear in matrix keputusan where you can check them there.
 
 <p align="center"><img src="readme/tabel_mk.png" alt="Tabel Matriks Keputusan"></p>
 
 ## Output
 
-- The normalization of the matrix will appear in tabel normalisasi
+- The normalization of the matrix will appear in normalisasi
 
 <p align="center"><img src="readme/tabel_normalisasi.png" alt="Tabel Normalisasi"></p>
 
-- The ranking for each alternative will appear in tabel rangking
+- The ranking for each alternative will appear in rangking
 
 <p align="center"><img src="readme/tabel_rangking.png" alt="Tabel Rangking"></p>
