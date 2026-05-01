@@ -11,7 +11,7 @@ A simple rental housing decision support system that is customizable to meet use
 
 <p align="center"><img src="readme/form_kriteria.png" alt="Form Kriteria"></p>
 
-Your criteria will appear in the criteria table where you can check them there.
+Your criteria will appear in tabel kriteria where you can check them there.
 
 <p align="center"><img src="readme/tabel_kriteria.png" alt="Tabel Kriteria"></p>
 
