@@ -20,7 +20,7 @@ class mKeputusan extends Controller
         ]);
 
         // Mendapatkan nilai id_ tertinggi dan menambah 1
-        $maxId = DB::table('mKeputusan')->max('id_matriks');
+        $maxId = DB::table('mkeputusan')->max('id_matriks');
         $newId = $maxId ? $maxId + 1 : 1;
 
         $mKeputusan = TabelmKeputusan::create([
